@@ -5,7 +5,7 @@
 
 }
 :root{
-  --primary:rgb(30, 206, 30);
+  --primary: rgb(255, 119, 8);
   --secondary:rgb(17, 12, 12);
     --light:#2f3640;
 }
@@ -46,14 +46,27 @@ html, body{
     .right i{
         font-size: 20px;
         margin: 0px 15px;
-        background-color: var(--primary);
-        color: white;
+        /* background-color: var(--primary); */
+        color: var(--primary);
         padding: 8px;
         cursor: pointer;
     }
-    .nav1 .right i:hover{
-        transform: rotate(90deg);
+    .nav1 .right .fa-facebook{
         color: blue;
+    }
+    .nav1 .right .fa-square-x-twitter{
+        color:black;
+    }
+    .nav1 .right .fa-whatsapp{
+        color: greenyellow;
+    }
+    .nav1 .right .fa-pinterest{
+        color: rgb(184, 12, 12);
+    }
+
+    .nav1 .right i:hover{
+        transform: rotate(180deg);
+        /* color: blue; */
     }
 
     .nav2{
